@@ -4,6 +4,6 @@ defmodule Alice.Handlers.DJO do
   route ~r/hai/, :hello
 
   def hello(conn) do
-    reply("oh hai")
+    reply(conn, "oh hai")
   end
 end
