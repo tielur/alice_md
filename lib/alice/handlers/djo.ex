@@ -1,5 +1,6 @@
 defmodule Alice.Handlers.DJO do
   use Alice.Router
+  alias Alice.Conn
 
   command ~r/thanks/i,                                      :thanks
   route   ~r/\bthanks,? alice\b/i,                          :thanks
