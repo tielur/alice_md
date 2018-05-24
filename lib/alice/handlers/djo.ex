@@ -6,7 +6,7 @@ defmodule Alice.Handlers.DJO do
   command ~r/\bI (love|:heart:) you\b/i,                    :alice_love
   route   ~r/\b(I )?(luv|love|:heart:) (yo)?u,? alice\b/i,  :alice_love
   route   ~r/\balice,? I (love|:heart:) you\b/i,            :alice_love
-  route   ~r/\b(ha(ha)+|lol)\b/i,                           :haha
+  route   ~r/\b(ha(ha)+|lol|lmf?ao|lul|rofl)\b/i,           :haha
 
 
   @doc "Either `thanks alice` or `@alice thanks` - tell Alice thanks"
