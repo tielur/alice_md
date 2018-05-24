@@ -18,7 +18,8 @@ defmodule AliceMD.MixProject do
         Alice, %{
           handlers: [
             Alice.Handlers.DJO,
-            Alice.Handlers.GoogleImages
+            Alice.Handlers.GoogleImages,
+            Alice.Handlers.Karma
           ]
         }
       }
