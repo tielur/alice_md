@@ -19,7 +19,8 @@ defmodule AliceMD.MixProject do
           handlers: [
             Alice.Handlers.DJO,
             Alice.Handlers.GoogleImages,
-            Alice.Handlers.Karma
+            Alice.Handlers.Karma,
+            Alice.Handlers.Haha
           ]
         }
       }
@@ -31,7 +32,8 @@ defmodule AliceMD.MixProject do
     [
       {:alice, "~> 0.3.6"},
       {:alice_google_images, "~> 0.1.4"},
-      {:alice_karma, "~> 0.3.5"}
+      {:alice_karma, "~> 0.3.5"},
+      {:alice_haha, "~> 1.0"}
     ]
   end
 end

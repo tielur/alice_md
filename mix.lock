@@ -1,6 +1,7 @@
 %{
   "alice": {:hex, :alice, "0.3.7", "9d912c5f38362e766623079f6d6bee46a78ba7547c1db2765537967f946a72dd", [:mix], [{:poison, "~> 3.0", [hex: :poison, repo: "hexpm", optional: false]}, {:poolboy, "~> 1.5.0", [hex: :poolboy, repo: "hexpm", optional: false]}, {:redix, "~> 0.6.0", [hex: :redix, repo: "hexpm", optional: false]}, {:slack, "~> 0.12.0", [hex: :slack, repo: "hexpm", optional: false]}], "hexpm"},
   "alice_google_images": {:hex, :alice_google_images, "0.1.4", "b282e141ccdce707ebbcdc4b4e771083d76726ab5c2d8012f96b4fd8b8dc43ac", [:mix], [{:alice, "~> 0.3", [hex: :alice, repo: "hexpm", optional: false]}], "hexpm"},
+  "alice_haha": {:hex, :alice_haha, "1.0.2", "3284cfecf425dbee50a5f4c752f3f64bea9de62e1dc04991febf4be5331be180", [:mix], [{:alice, "~> 0.3", [hex: :alice, repo: "hexpm", optional: false]}], "hexpm"},
   "alice_karma": {:hex, :alice_karma, "0.3.5", "5a03b3b171ac975e66dcc0c39403f895535480546496ceaa08f454baf0bcb38f", [:mix], [{:alice, "~> 0.3", [hex: :alice, repo: "hexpm", optional: false]}], "hexpm"},
   "certifi": {:hex, :certifi, "2.3.1", "d0f424232390bf47d82da8478022301c561cf6445b5b5fb6a84d49a9e76d2639", [:rebar3], [{:parse_trans, "3.2.0", [hex: :parse_trans, repo: "hexpm", optional: false]}], "hexpm"},
   "connection": {:hex, :connection, "1.0.4", "a1cae72211f0eef17705aaededacac3eb30e6625b04a6117c1b2db6ace7d5976", [:mix], [], "hexpm"},
