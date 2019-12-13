@@ -15,12 +15,14 @@ defmodule AliceMD.MixProject do
   def application do
     [
       mod: {
-        Alice, %{
+        Alice,
+        %{
           handlers: [
             Alice.Handlers.DJO,
             Alice.Handlers.GoogleImages,
             Alice.Handlers.Karma,
-            Alice.Handlers.Haha
+            Alice.Handlers.Haha,
+            Alice.Handlers.OhYouSo
           ]
         }
       }
